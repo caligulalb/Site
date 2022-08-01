@@ -12,18 +12,18 @@
 </head>
 
 <header>
-    <div>
+    <div style="cursor: pointer;">
         <i class="bi-chevron-left" style="font-size: 20px; color: white;"></i>
-        <p>BACK TO VERSIONS</p>
+        <p><a href="#" style="color: white;">BACK TO VERSIONS</a></p>
     </div>    
 </header>
 
 <body>
-    <div class="main">
+    <main>
 
         <div class="row g-3 mb-5 mt-5" style="width: 80%; color:#86868B;">
                 <h1 class="text-center fs-2" style="color: #3a3a3a">Sign Up for Fabricator</h1>
-                <h2 class="fs-5 fw" style="color: #3a3a3a">Please enter your details</h2>
+                <h2 class="fs-5" style="color: #3a3a3a">Please enter your details</h2>
                 <div>
                     <input type="text" class="form-control" placeholder="*Name...">
                 </div>
@@ -44,69 +44,69 @@
                 </div>
                 <div class="col" style="display:flex">
                     <input type="text" class="form-control" placeholder="*Temporary Website...">
-                    <label style="margin-top: 5px;">.slabware.com</label>
+                    <label style="margin-top: 5px; opacity: 60%;">.slabware.com</label>
                 </div>
         </div>
 
-        <div style="width: 80%;">
-            <h2 class="fs-5 fw-bold">Select your plan</h2>
-            <div class="planos">
-                <div class="pricing">
-                    <h3 class="pricing-header">Monthly</h3>
-                    <div class="pricing-body" >
-                        <h1>U$ 149</h1>
-                        <h4>Per month</h4>
-                        <p><br></p>
+            <div class="main">
+                <h1 class="fs-5" style="margin-left: 8px;">Select your plan</h1>
+                <div class="planos">
+                    <div class="pricing">
+                        <div class="c-card-header">Monthly</div>
+                        <div class="c-card-body">
+                            <h2>U$ 149</h2>
+                            <h3>Per month</h3>
+                            <p><br></p>
+                        </div>
                     </div>
-                </div>
-                <div class="pricing">
-                    <h3 class="pricing-header">Monthly</h3>
-                    <div class="pricing-body">
-                        <h1>U$ 149</h1>
-                        <h4>Per month</h4>
-                        <p>Billed semesterly U$ 852</p>
+                    <div class="pricing">
+                        <div class="c-card-header">Semesterly</div>
+                        <div class="c-card-body">
+                            <h2>U$ 142</h2>
+                            <h3>Per month</h3>
+                            <p>Billed semesterly U$ 852</p>
+                        </div>
                     </div>
-                </div>
-                <div class="pricing">
-                    <h3 class="pricing-header">Monthly</h3>
-                    <div class="pricing-body">
-                        <h1>U$ 149</h1>
-                        <h4>Per month</h4>
-                        <p>Billed semesterly U$ 852</p>
+                    <div class="pricing">
+                        <div class="c-card-header">Yearly</div>
+                        <div class="c-card-body">     
+                            <h2>U$ 135</h2>
+                            <h3>Per month</h3>
+                            <p>Billed semesterly U$ 1,620</p>
+                        </div>
                     </div>
+                </div> 
+                <div style="display: flex; justify-content: center; padding: 20px 0px 40px 0px;">
+                    <button>BUY NOW</button>
                 </div>
             </div>
-            <span>
-                <button class="botao">BUY NOW</button>
-            </span>
-        </div>
-    
-    </div>
+
+    </main>
 </body>
 
 <script src="./script.js"></script>
 
 <footer>
     <div class="footer-top">
-        <ul><b>Pages</b>
-            <li>Home</li>
+        <ul><a href="#">Pages</a>
+            <li><a href="#">Home</a></li>
         </ul>
-        <ul><b>Versions</b>
-            <li>Fabricator</li>
+        <ul><a href="#">Versions</a>
+            <li><a href="#">Fabricator</a></li>
         </ul>
-        <ul><b>More info</b>
-            <li>info@slabware.com</li>
+        <ul><a href="#">More info</a>
+            <li><a href="#">info@slabware.com</a></li>
         </ul>
-        <ul><b>Help</b>
-            <li>How it Works</li>
+        <ul><a href="#">Help</a>
+            <li><a href="#">How it Works</a></li>
         </ul>
-        <ul><b>Social Media</b>
-            <li>Instagram</li>
+        <ul><a href="#">Social Media</a>
+            <li><a href="#">Instagram</a></li>
         </ul>
     </div>
     <div class="footer-bottom">
-        <ul><b>Headquarter:</b>
-            <li>Brazil</li>
+        <ul><a href="#">Headquarter:</a>
+            <li><a href="#">Brazil</a></li>
         </ul>
     </div>
 </footer>
